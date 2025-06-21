@@ -7,10 +7,9 @@ body{
 
 .stopwatch{
     width: 90%;
-    max-width: 60px;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/background.png);
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('images/background.png');
     background-size: cover;
-    
     background-position: center;
     text-align: center;
     padding: 40px 0;
@@ -23,4 +22,10 @@ body{
     margin: 60px;
     font-size: 64px;
     font-weight: 300;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
 }
